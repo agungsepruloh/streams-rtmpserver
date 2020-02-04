@@ -1,0 +1,12 @@
+RTMP SETUP:
+
+. npm init
+. npm install node-media-server
+. create a new file index.js
+. change package.json file from 
+    "test": "echo \"Error: no test specified\" && exit 1" 
+    
+    to
+
+    "start": "node index.js"
+. npm start
